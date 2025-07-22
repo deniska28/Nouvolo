@@ -151,13 +151,16 @@ nav{
 }
 
 .question{
-    position: fixed;
-    right: 45px;
-    bottom: 45px;
+    position: relative;
+    z-index: 10;
 }
 
 .chat{
     cursor: pointer;
+    position: fixed;
+    right: 45px;
+    bottom: 45px;
+    
 }
 
 .line{
@@ -400,8 +403,7 @@ nav{
     nav{
         padding: 0 30px;
     }
-    .question{
-        position: fixed;
+    .chat{
         right: 25px;
         bottom: 25px;
     }
